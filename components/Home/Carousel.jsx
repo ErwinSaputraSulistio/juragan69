@@ -19,16 +19,16 @@ export default function Carousel() {
 
 			<Slider {...settings}>	
 				<div className='carouselImage'>
-					<img src="http://placekitten.com/g/400/200" />
+					<img src={"/img/carousel.jpg"} />
 				</div>
 				<div className='carouselImage'>
-					<img src="http://placekitten.com/g/400/200" />
+					<img src={"/img/carousel.jpg"} />
 				</div>
 				<div className='carouselImage'>
-					<img src="http://placekitten.com/g/400/200" />
+					<img src={"/img/carousel.jpg"} />
 				</div>
 				<div className='carouselImage'>
-					<img src="http://placekitten.com/g/400/200" />
+					<img src={"/img/carousel.jpg"} />
 				</div>
 			</Slider>
 			</div>
