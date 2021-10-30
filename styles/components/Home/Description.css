@@ -1,0 +1,21 @@
+.description {
+    padding: 14px;
+}
+.descriptionBox {
+    border: 5px groove cadetblue;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+@media (max-width: 767px) {
+    .descriptionContent {
+        font-size: 12px;
+    }
+}
+.descriptionTitle {
+    text-align: center;
+}
+.descriptionContent {
+    line-height: 1.6em;
+    font-family: sans-serif;
+}

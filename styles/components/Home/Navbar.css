@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Mulish");
+
+.backArrow {
+	font-size: 11vw;
+	padding: 5.5vw;
+}
+
+.btn-light {
+	border-color: #6C757D;
+}
+
+.btn-link {
+	text-decoration: none;
+}
+
+.desktopAuth {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.desktopMenu {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.hoverThis:hover {
+	opacity: 0.5;
+    
+}
+
+.insideSideNavbar {
+	background-color: rgba(0, 0, 0, 0.77);
+	color: white;
+	height: 100%;
+	width: 100%;
+}
+
+.insideSideNavbarSelection {
+	display: flex;
+	flex-direction: column;
+	float: right;
+	font-family: 'Mulish';
+	font-weight: bold;
+	height: 100%;
+	margin-right: 7.7vw;
+	margin-top: 7.7vw;
+	text-align: right;
+}
+
+.navbarCustom {
+	border-radius: 0 0 12px 12px;
+	box-shadow: 0 0.25vw 1vw #D7D7D7;
+}
+
+.navbarLogo {
+	width: 100%;
+}
+
+.navbarSidemenu {
+	background: black;
+	position: absolute;
+	width: 10vw;
+	height: 10vw;
+}
+
+.row {
+   --bs-gutter-x: 0;
+	align-items: center;
+	padding: 1vw;
+   width: 100%;
+}
+
+.sideNavbar {
+	background:url("https://www.enwallpaper.com/wp-content/uploads/three-poker-money-on-the-table-hd-wallpaper-852x1608-1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 101vh;
+	margin-top: -20%;
+	position: fixed;
+	width: 100vw;
+	z-index: 3;
+}
+
+.sideNavbarAuth {
+	margin: 8.8vw 0;
+	text-align: center;
+}
+
+.sideNavbarEaseIn, .sideNavbarEaseOut {
+	transition-duration: 0.5s;
+}
+
+.sideNavbarEaseIn {
+	margin-left: 0;
+}
+
+.sideNavbarEaseOut {
+	margin-left: -100%;
+}
+
+.width20 {
+	width: 20%;
+}
+
+.width44 {
+	width: 44%;
+}
+
+.width88 {
+	margin: 1.1vw 0;
+	width: 88%;
+}
+
+.width100 {
+	width: 100%;
+}
+
+@media (max-width: 768px) {
+	.hideThisInMobile {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) {
+	.hideThisInDesktop {
+		display: none;
+	}
+}

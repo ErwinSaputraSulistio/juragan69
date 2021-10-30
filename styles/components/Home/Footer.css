@@ -1,0 +1,39 @@
+.footer {
+    padding: 14px;
+}
+.footerImage {
+    width: 100%;
+    max-width: 200px;
+    padding: 10px;
+}
+.footer .row {
+    align-items: unset;
+}
+
+@media (max-width: 992px) {
+	.footerImage {
+		max-width: 150px;
+	}
+    .footerImageWrapper {
+        height: auto !important;
+    }
+    .footerImageContainer {
+        margin-top: 15px;
+    }
+}
+
+.footerImageWrapper {
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+}
+
+.footerPaymentWrapper {
+    overflow: scroll;
+    background: transparent;
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
