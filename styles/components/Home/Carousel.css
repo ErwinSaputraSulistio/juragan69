@@ -1,5 +1,10 @@
 .carousel {
-    padding: 20px;
+    padding: 14px;
+    --bs-gutter-x: 0;
+}
+
+.slick-next {
+    display: none !important;
 }
 
 .carouselImage img {

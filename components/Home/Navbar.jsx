@@ -14,12 +14,12 @@ export default function Navbar() {
 						alt="hamMenu" 
 						className="width100" 
 						onClick={ () => { switchSideMenu(true) } }
-						src="https://cdn3.iconfinder.com/data/icons/mini-icon-set-general-office/91/General_-_Office_30-1024.png"
+						src="/img/hammenu.png"
 					/>
 				</div>
 				{/* NAVBAR LOGO */}
 				<div className="col-4 offset-3 col-sm-2 offset-sm-0">
-					<img alt="navbarLogo" className="width100" src="https://i.pinimg.com/originals/33/3e/22/333e22f464ed18e1c691a8720e29e9b6.png"/>
+					<img alt="navbarLogo" className="width100" src="/img/poker.png"/>
 				</div>
 				{/* DESKTOP NAVBAR */}
 				<div className="desktopMenu col-sm-7 hideThisInMobile">
